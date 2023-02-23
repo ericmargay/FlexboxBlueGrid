@@ -1,3 +1,14 @@
+:root { /* paleta de colores UX establecida*/
+    --color-first-box: #4b0076;
+    --color-second-box: #88058f;
+    --color-third-box: #a816b5;
+    --color-four-box: #a42ad0;
+    --color-five-box: #e040eb;
+
+}
+
+
+
 body {
     margin: 50;
 }
@@ -14,23 +25,23 @@ body {
 
 
 .caja1 {
-    background-color: #003476;
+    background-color: var(--color-first-box);
 }
 
 .caja2 {
-    background-color: #05418f;
+    background-color: var(--color-second-box);
 }
 
 .caja3 {
-    background-color: #165bb5;
+    background-color: var(--color-third-box);
 }
 
 .caja4 {
-    background-color: #2a72d0;
+    background-color: var(--color-four-box);
 }
 
 .caja5 {
-    background-color: #408aeb;
+    background-color: var(--color-five-box);
 }
 
 .caja1, .caja2, .caja3, .caja4, .caja5 {
