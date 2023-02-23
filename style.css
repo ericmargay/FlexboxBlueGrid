@@ -1,0 +1,61 @@
+body {
+    margin: 50;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+
+
+.caja1 {
+    background-color: #003476;
+}
+
+.caja2 {
+    background-color: #05418f;
+}
+
+.caja3 {
+    background-color: #165bb5;
+}
+
+.caja4 {
+    background-color: #2a72d0;
+}
+
+.caja5 {
+    background-color: #408aeb;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+    width: 100%;
+}
+
+.container section {
+    min-width: 150px;
+    min-height: 150px;
+}
+
+@media only screen and (min-width: 600px) {
+    .caja2, .caja3, .caja4, .caja5 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .caja1 {
+        width: 40%;
+    }
+    .caja2 {
+        width: 60%;
+    }
+    .caja3, .caja4, .caja5 {
+        width: 33.33%;
+    }
+}
